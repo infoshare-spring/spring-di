@@ -16,6 +16,7 @@ import java.util.Optional;
 import static java.net.http.HttpResponse.BodyHandlers.ofString;
 
 @Component
+@Profile("http")
 @HttpSource
 @Profile("http")
 @RequiredArgsConstructor
